@@ -7,8 +7,8 @@ import NotFound from '../pages/404'
 const App = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/exercise" component={ExercisesContainer} />
-            <Route exact path="/exercise/new" component={ExerciseNewContainer} />
+            <Route exact path="/" component={ExercisesContainer} />
+            <Route exact path="/new" component={ExerciseNewContainer} />
             <Route component={NotFound}/>
         </Switch>
     </BrowserRouter>
